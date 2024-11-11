@@ -1,0 +1,79 @@
+/* estilos2.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Fondo oscuro para reducir contraste */
+    color: #f0f0f0; /* Texto claro para mejor visibilidad */
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1c1c1c;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav .button {
+    text-decoration: none;
+    color: #f0f0f0;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+nav .button:hover {
+    background-color: #555;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+figure {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 200px; /* Tamaño más pequeño para reducir sobrecarga visual */
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #444;
+}
+
+figcaption {
+    padding: 15px;
+    font-size: 0.9em; /* Tamaño de fuente reducido */
+    color: #cccccc;
+}
+
+figcaption span {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.8em;
+    color: #bbbbbb;
+}
+
+footer p {
+    font-size: 0.8em;
+    color: #666;
+}

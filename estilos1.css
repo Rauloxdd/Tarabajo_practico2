@@ -1,0 +1,110 @@
+/* Estructura de la página */
+body {
+    font-family: Arial, sans-serif;
+    color: #d3d3d3;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1c1c1c;
+}
+
+header {
+    background-color: #333;
+    color: #d3d3d3;
+    padding: 2em 1em;
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.highlight {
+    color: #00bcd4;
+}
+
+nav {
+    background-color: #444;
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.nav-button {
+    background-color: #555;
+    color: #d3d3d3;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #00bcd4;
+}
+
+/* Sección de tabla */
+.table-section {
+    width: 80%;
+    max-width: 800px;
+    margin: 2em 0;
+    text-align: center;
+    color: #d3d3d3;
+}
+
+.table-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+    background-color: #333; /* Fondo oscuro para la tabla */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    border: 2px solid #444; /* Borde exterior oscuro */
+}
+
+thead {
+    background-color: #00b1c9; /* Color celeste para el encabezado */
+    color: #fff;
+}
+
+th, td {
+    padding: 1em;
+    border: 1px solid #555; /* Bordes más visibles en gris oscuro */
+    text-align: center;
+    font-size: 1em;
+    color: #d3d3d3; /* Texto claro */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #2a2a2a; /* Fondo oscuro para filas pares */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #1f1f1f; /* Fondo ligeramente más claro para filas impares */
+}
+
+tbody tr:hover {
+    background-color: #444; /* Resalta la fila al pasar el ratón */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #d3d3d3;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
